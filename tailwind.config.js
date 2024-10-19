@@ -6,9 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-   colors:{
-    lightBlue:"rgbBa(0, 55, 255, 0.68)"
-   }
+   
     },
   },
   plugins: [],
