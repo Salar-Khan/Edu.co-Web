@@ -1,7 +1,7 @@
 {
   "name": "react-project",
   "homepage": "https://Salar-Khan.github.io/Edu.co-Web/",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
