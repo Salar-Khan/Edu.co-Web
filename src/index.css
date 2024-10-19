@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.primary-btn{
+    @apply p-2 text-white bg-blue-700 hover:bg-blue-500 duration-500
+}
+.secondary-btn{
+    @apply p-2 text-white bg-red-700 hover:bg-red-500 duration-500
+}
+.form-input{
+    @apply p-4 w-full my-2  bg-gray-200 outline-none
+}
+.icons{
+    @apply inline-flex my-3 items-center
+}
+.icon{
+    @apply mr-3 text-xl text-red-700
+}
+.careers{
+    @apply flex  items-center md:flex-col justify-between md:text-left  my-6 md:w-[32%] sm:mx-2
+}
