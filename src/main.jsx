@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 import './index.css'
 import { RouterProvider } from 'react-router-dom'
-import {createBrowserRouter} from 'react-router-dom'
+import {createHashRouter} from 'react-router-dom'
 import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Courses from './Pages/Courses.jsx'
@@ -13,7 +13,7 @@ import Signup from './Pages/Signup.jsx'
 import SignIn from './Pages/SignIn.jsx'
 
 
-const router =createBrowserRouter([
+const router =createHashRouter([
   {
     path:'/',
     element:<Home/>
